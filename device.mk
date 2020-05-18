@@ -40,5 +40,21 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     init.zuk.rc
 
+
+# UBPorts
+PRODUCT_PACKAGES += \
+    libion \
+    libmedia_compat_layer \
+    libui_compat_layer
+
+#  droidmedia
+PRODUCT_PACKAGES += \
+    libdroidmedia \
+    minimediaservice \
+    minisfservice \
+    miniafservice \
+    libaudioflingerglue 
+
+
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
