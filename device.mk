@@ -55,6 +55,9 @@ PRODUCT_PACKAGES += \
     miniafservice \
     libaudioflingerglue 
 
+# Disable FakeSensorServer so UBports can use it
+MINIMEDIA_SENSORSERVER_DISABLE := 1
+
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
