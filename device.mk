@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
 # init scripts
 PRODUCT_PACKAGES += \
     init.halium.rc \
-    init.disabled.rc 
+    init.disabled.rc \
+    on-post-data.sh
    
 
 # Media
