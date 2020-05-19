@@ -61,6 +61,9 @@ PRODUCT_PACKAGES += \
     libbiometry_fp_api \
     libubuntu_application_api
 
+PRODUCT_PACKAGES += \
+    sensorservice
+
 # Disable FakeSensorServer so UBports can use it
 MINIMEDIA_SENSORSERVER_DISABLE := 1
 
