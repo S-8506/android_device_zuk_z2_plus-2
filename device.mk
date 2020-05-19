@@ -40,6 +40,12 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     init.zuk.rc
 
+# Misc
+PRODUCT_PACKAGES += \
+    libdrm \
+    libion \
+    vendor.display.config@1.7
+
 # init scripts
 PRODUCT_PACKAGES += \
     init.halium.rc \
