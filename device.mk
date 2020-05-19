@@ -45,15 +45,21 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libion \
     libmedia_compat_layer \
-    libui_compat_layer
+    libui_compat_layer \
+    libsf_compat_layer 
 
 #  droidmedia
 PRODUCT_PACKAGES += \
     libdroidmedia \
     minimediaservice \
     minisfservice \
-    miniafservice \
-    libaudioflingerglue 
+    miniafservice 
+
+
+# Ubuntu
+PRODUCT_PACKAGES += \
+    libbiometry_fp_api \
+    libubuntu_application_api
 
 # Disable FakeSensorServer so UBports can use it
 MINIMEDIA_SENSORSERVER_DISABLE := 1
