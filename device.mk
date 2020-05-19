@@ -40,6 +40,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     init.zuk.rc
 
+# init scripts
+PRODUCT_PACKAGES += \
+    init.halium.rc 
+   
 
 # Media
 PRODUCT_PACKAGES += \
