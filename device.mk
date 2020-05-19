@@ -41,6 +41,11 @@ PRODUCT_PACKAGES += \
     init.zuk.rc
 
 
+# Support for the O devices
+PRODUCT_COPY_FILES += \
+    build/make/target/product/vndk/init.gsi.rc:system/etc/init/init.gsi.rc \
+    build/make/target/product/vndk/init.vndk-27.rc:system/etc/init/gsi/init.vndk-27.rc \
+    $(LOCAL_PATH)/configs/ld.config.26.txt:system/etc/ld.config.26.txt
 
 PRODUCT_PACKAGES += \
     init.vndk-26.rc \
