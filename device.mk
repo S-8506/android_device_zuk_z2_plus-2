@@ -40,6 +40,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     init.zuk.rc
 
+PRODUCT_PACKAGES += \
+    vndk_v27_arm64
+
 # Misc
 PRODUCT_PACKAGES += \
     libandroid \
