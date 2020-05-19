@@ -37,10 +37,5 @@ on post-fs-data
     mkdir /data/system/users/0 0700 system system
     mkdir /data/system/users/0/fpdata 0700 system system
 
-on property:init.svc.wcnss-service=running
-    write /dev/wcnss_wlan 1
-    write /sys/module/wlan/parameters/fwpath sta
-    write /sys/module/hci_smd/parameters/hcismd_set 1
-
 on property:sys.boot_completed=1
     write /sys/module/wlan/parameters/fwpath sta
