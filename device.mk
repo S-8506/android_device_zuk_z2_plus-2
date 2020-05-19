@@ -40,6 +40,14 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     init.zuk.rc
 
+
+
+PRODUCT_PACKAGES += \
+    init.vndk-26.rc \
+    ld.config.27.txt \
+    llndk.libraries.27.txt \
+    vndksp.libraries.27.txt
+
 PRODUCT_PACKAGES += \
     vndk_v27_arm64
 
