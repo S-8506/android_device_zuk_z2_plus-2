@@ -68,7 +68,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.halium.rc \
     init.disabled.rc \
-    on-post-data.sh
+    on-post-data.sh \
+    vndk-detect 
    
 
 # Media
