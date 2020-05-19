@@ -41,6 +41,15 @@ PRODUCT_PACKAGES += \
     init.zuk.rc
 
 
+# Media
+PRODUCT_PACKAGES += \
+    libmedia_omx \
+    android.frameworks.displayservice@1.0 \
+    drmserver \
+    mediadrmserver \
+    mediaextractor
+
+
 # UBPorts
 PRODUCT_PACKAGES += \
     libion \
